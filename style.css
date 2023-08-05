@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --nav-color: #fff;
+  --nav-outfocus: #c4c4cc;
+  --text-color: #e1e1e6;
+  --btn-hover-color: #02799d;
+  --main-font: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  background: center / cover no-repeat url("./assets/mountains-universe-1.png");
+
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  max-height: 12rem;
+  padding: 4rem 0 4rem 7.2rem;
+  gap: 3.2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 5.4rem;
+}
+
+nav ul li a {
+  color: var(--nav-outfocus);
+  font-family: var(--main-font);
+
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 100%;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  color: var(--nav-color);
+  font-weight: 700;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.home {
+  display: grid;
+  place-content: center;
+  place-items: center;
+
+  gap: 2.4rem;
+  height: 100%;
+
+  padding-bottom: 20rem;
+}
+
+.home h1 {
+  color: var(--text-color);
+  font-family: var(--main-font);
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 125%;
+  text-align: center;
+}
+
+.home button {
+  border-radius: 5px;
+  border: 2px solid var(--nav-color);
+  padding: 1.2rem 3.2rem;
+
+  color: var(--nav-color);
+  font-family: var(--main-font);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  background: transparent;
+  cursor: pointer;
+}
+
+.home button:hover,
+.home button:hover a {
+  color: var(--btn-hover-color);
+  background: var(--nav-color);
+}
+
+.home a {
+  color: var(--nav-color);
+  font-family: var(--main-font);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-decoration: none;
+}
+
+.side-text {
+  max-width: 72rem;
+  padding-left: 11rem;
+  margin-top: 6.5rem;
+}
+
+.side-text h2 {
+  color: var(--text-color);
+  font-family: var(--main-font);
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 6rem;
+}
+
+.side-text p {
+  color: var(--text-color);
+  font-family: var(--main-font);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  margin-top: 1.6rem;
+}
+
+@media (max-width: 800px) {
+  nav {
+    padding: 3rem 2rem;
+  }
+
+  .side-text {
+    padding: 0 2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 530px) {
+  nav {
+    flex-direction: column;
+    max-height: 23rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    height: 50rem;
+  }
+}
