@@ -2,6 +2,9 @@
 
 Bem-vindo ao SPA Universe! Este é um projeto desenvolvido como parte do curso da Rocketseat, focado na criação de Single Page Applications (SPA) utilizando HTML, CSS e JavaScript.
 
+![image](https://github.com/leonardo-valentin/spa-universe/assets/71048056/818da8de-9ae3-4f4c-aed7-e12282f1384d)
+
+
 ## Visão Geral
 
 O SPA Universe é uma aplicação de página única que exemplifica os conceitos fundamentais das Single Page Applications. Através deste projeto, exploramos a criação de uma experiência contínua para os usuários, permitindo a navegação sem recarregar a página.
