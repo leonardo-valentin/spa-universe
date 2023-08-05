@@ -23,11 +23,6 @@ O SPA Universe é uma aplicação de página única que exemplifica os conceitos
 - JavaScript para adicionar interatividade e funcionalidades dinâmicas.
 - Ferramentas e bibliotecas recomendadas durante o curso da Rocketseat.
 
-## Como Usar
-
-1. Clone este repositório para sua máquina local.
-2. Abra o arquivo `index.html` em um navegador web para iniciar a aplicação.
-
 ## Contribuições
 
 Contribuições são bem-vindas! Se você quiser contribuir para a melhoria deste projeto, fique à vontade para abrir uma issue ou um pull request.
